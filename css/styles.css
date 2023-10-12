@@ -325,6 +325,15 @@ img {
     flex-basis: calc((100% - 2 * 24px) / 3);
 }
 
+.portfolio-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-wrap:hover .overlay {
+    transform: translateY(0);
+}
+
 .portfolio-desc {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
@@ -345,6 +354,22 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.overlay {
+    background-color: #3f51b5;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    padding: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
 }
 
 /*=====FOOTER=====*/
