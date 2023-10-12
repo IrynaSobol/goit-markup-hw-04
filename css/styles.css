@@ -213,6 +213,11 @@ img {
     margin-bottom: 8px;
 }
 
+.benefits-icon {
+    width: 64px;
+    height: 64px;
+}
+
 .benefits-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -309,6 +314,8 @@ img {
 
 .media-icon {
     fill:  #f4f4fd;
+    width: 16px;
+    height: 16px;
 }
 
 /*=====PORTFOLIO=====*/
@@ -451,6 +458,8 @@ img {
 
 .media-icon {
     fill: #f4f4fd;
+    width: 24px;
+    height: 24px;
 }
 
 .visually-hidden {
